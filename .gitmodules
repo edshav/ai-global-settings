@@ -1,0 +1,6 @@
+[submodule "sources/context7"]
+	path = sources/context7
+	url = git@github.com:upstash/context7.git
+[submodule "sources/anthropic-skills"]
+	path = sources/anthropic-skills
+	url = git@github.com:anthropics/skills.git

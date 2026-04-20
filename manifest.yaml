@@ -1,0 +1,13 @@
+rules:
+  - name: my-rules
+    source: sources/my/RULES.md
+    enabled: true
+
+skills:
+  - name: skill-creator
+    source: sources/anthropic-skills/skills/skill-creator
+    enabled: true
+
+  - name: context7-cli
+    source: sources/context7/skills/context7-cli
+    enabled: true
