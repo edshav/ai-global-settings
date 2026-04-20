@@ -1,6 +1,6 @@
 rules:
   - name: my-rules
-    source: sources/my/RULES.md
+    source: sources/my/rules/RULES.md
     enabled: true
 
 skills:
