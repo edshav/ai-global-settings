@@ -11,3 +11,15 @@ skills:
   - name: context7-cli
     source: sources/context7/skills/context7-cli
     enabled: true
+
+  - name: discovery-interview
+    source: sources/my/skills/discovery-interview
+    enabled: true
+
+  - name: github-interaction
+    source: sources/my/skills/github-interaction
+    enabled: true
+
+  - name: doc-coauthoring
+    source: sources/my/skills/doc-coauthoring
+    enabled: true

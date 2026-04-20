@@ -1,0 +1,23 @@
+{
+  "skill_name": "github-interaction",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Can you review PR 116 for me? Look for any code quality issues.",
+      "expected_output": "The agent should fetch PR data, generate a draft review locally, and explicitly ask for user approval before submitting anything to GitHub.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We need to track a bug where the SKA supply is not updating. Create an issue for it named 'SKA Supply Update Bug'.",
+      "expected_output": "The agent should draft the issue title and body locally and wait for explicit 'Post it' or similar confirmation before creating the issue.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "What's the status of my open PRs?",
+      "expected_output": "The agent should use `gh pr list` to show the status. This is a read-only operation and does not require a 'Post it' confirmation, though it should still use `gh` CLI.",
+      "files": []
+    }
+  ]
+}
