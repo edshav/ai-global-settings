@@ -23,3 +23,7 @@ skills:
   - name: doc-coauthoring
     source: sources/my/skills/doc-coauthoring
     enabled: true
+
+  - name: mutation-analyzer
+    source: sources/my/skills/mutation-analyzer
+    enabled: false
