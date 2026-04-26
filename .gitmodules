@@ -4,3 +4,9 @@
 [submodule "sources/anthropic-skills"]
 	path = sources/anthropic-skills
 	url = git@github.com:anthropics/skills.git
+[submodule "sources/obra-superpowers"]
+	path = sources/obra-superpowers
+	url = git@github.com:obra/superpowers.git
+[submodule "sources/parcadei-Continuous-Claude-v3"]
+	path = sources/parcadei-Continuous-Claude-v3
+	url = git@github.com:parcadei/Continuous-Claude-v3.git

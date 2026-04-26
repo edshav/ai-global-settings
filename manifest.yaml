@@ -13,17 +13,21 @@ skills:
     enabled: true
 
   - name: discovery-interview
-    source: sources/my/skills/discovery-interview
+    source: sources/parcadei-Continuous-Claude-v3/.claude/skills/discovery-interview
+    enabled: true
+
+  - name: doc-coauthoring
+    source: sources/anthropic-skills/skills/doc-coauthoring
+    enabled: true
+
+  - name: test-driven-development
+    source: sources/obra-superpowers/skills/test-driven-development
+    enabled: true
+
+  - name: mutation-analyzer
+    source: sources/my/skills/mutation-analyzer
     enabled: true
 
   - name: github-interaction
     source: sources/my/skills/github-interaction
     enabled: true
-
-  - name: doc-coauthoring
-    source: sources/my/skills/doc-coauthoring
-    enabled: true
-
-  - name: mutation-analyzer
-    source: sources/my/skills/mutation-analyzer
-    enabled: false
