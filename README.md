@@ -18,8 +18,6 @@ You can run the script using `tsx` (recommended for zero-config ESM support):
 npx -y tsx scripts/build.ts
 ```
 
-Here’s a clean section you can drop into your README:
-
 ---
 
 ## Adding External Skill Repositories
