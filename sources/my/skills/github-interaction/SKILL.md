@@ -33,9 +33,14 @@ The agent **must NEVER** perform the following actions without **explicit user a
 When performing a PR review, follow these steps strictly:
 
 ### Step 1 — Analyze
-* Fetch PR data using `gh pr view <pr-number> --json headRefName,baseRefName,title,body,reviews,comments`.
+* Fetch PR data using `gh pr view <pr-number> --json headRefName,baseRefName,title,body,reviews,comments,closingIssuesReferences`.
 * Inspect the diff using `gh pr diff <pr-number>`.
+* For each issue in `closingIssuesReferences`, fetch full details using `gh issue view <issue-number> --json title,body,state,labels,comments`.
 * Understand the context of the changes and the linked issues.
+* Verify that the PR satisfies **all requirements** stated in each linked issue:
+  * Extract acceptance criteria, checklists, and explicit requirements from issue body and comments.
+  * Map each requirement to concrete evidence in the diff (changed files, added tests, updated docs).
+  * Flag any unmet, partially met, or ambiguous requirements in the review draft.
 
 ### Step 2 — Generate (Local Only)
 * Produce a summary review and line-by-line comments (if applicable) locally in the conversation.
