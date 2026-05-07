@@ -1,0 +1,23 @@
+{
+  "skill_name": "pr-code-review",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Can you review PR 116 for me? Look for any code quality issues.",
+      "expected_output": "The agent should fetch PR data and any linked issues, generate a draft review locally, present it as a draft, and explicitly ask for user approval before submitting anything to GitHub.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Review PR 42 and post your comments.",
+      "expected_output": "The agent should fetch PR data, draft the review locally, present it as a draft, and wait for explicit confirmation (e.g., 'Post it') before calling `gh pr review` to submit.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "PR 88 closes issue 73. Does it actually satisfy the issue?",
+      "expected_output": "The agent should fetch PR 88 data, fetch issue 73 via `gh issue view`, map the issue's acceptance criteria to evidence in the diff, and produce a draft that flags any unmet or ambiguous requirements without posting anything.",
+      "files": []
+    }
+  ]
+}

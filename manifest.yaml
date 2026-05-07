@@ -1,6 +1,6 @@
 rules:
-  - name: my-rules
-    source: sources/my/rules/RULES.md
+  - name: github-cli
+    source: sources/my/rules/github-cli.md
     enabled: true
 
 skills:
@@ -28,6 +28,6 @@ skills:
     source: sources/my/skills/mutation-analyzer
     enabled: true
 
-  - name: github-interaction
-    source: sources/my/skills/github-interaction
+  - name: pr-code-review
+    source: sources/my/skills/pr-code-review
     enabled: true
