@@ -26,7 +26,7 @@ skills:
 
   - name: mutation-analyzer
     source: sources/my/skills/mutation-analyzer
-    enabled: true
+    enabled: false
 
   - name: pr-code-review
     source: sources/my/skills/pr-code-review
