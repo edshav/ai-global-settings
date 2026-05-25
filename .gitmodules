@@ -10,3 +10,6 @@
 [submodule "sources/parcadei-Continuous-Claude-v3"]
 	path = sources/parcadei-Continuous-Claude-v3
 	url = git@github.com:parcadei/Continuous-Claude-v3.git
+[submodule "sources/edshav-skills"]
+	path = sources/edshav-skills
+	url = git@github.com:edshav/skills.git

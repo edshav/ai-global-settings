@@ -1,8 +1,3 @@
-rules:
-  - name: github-cli
-    source: sources/my/rules/github-cli.md
-    enabled: true
-
 skills:
   - name: skill-creator
     source: sources/anthropic-skills/skills/skill-creator
@@ -25,9 +20,5 @@ skills:
     enabled: true
 
   - name: mutation-analyzer
-    source: sources/my/skills/mutation-analyzer
+    source: sources/edshav-skills/mutation-analyzer
     enabled: false
-
-  - name: pr-code-review
-    source: sources/my/skills/pr-code-review
-    enabled: true
