@@ -1,7 +1,7 @@
 {
   "name": "ai-global-settings",
   "version": "1.0.0",
-  "description": "",
+  "description": "Declarative build that aggregates AI coding agent rules and skills from pinned upstream repos into a single dist/ tree consumable by any agent harness (Claude Code, Codex, Gemini CLI, Copilot CLI, ...).",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

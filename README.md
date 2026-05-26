@@ -1,5 +1,11 @@
 # ai-global-settings
 
+**Treats AI coding agent config as code.** A declarative aggregator (`manifest.yaml`) that pulls rules and skills from multiple upstream repos — pinned as git submodules, validated with Zod, conflict-checked, then flattened into a single `dist/` tree any agent harness can consume (Claude Code, Codex, Gemini CLI, Copilot CLI, …). One command, reproducible builds, no hand-edited config.
+
+```bash
+npm run build   # manifest.yaml + sources/  →  dist/
+```
+
 ## Key Features of the Build Script:
 
 1.  **Validation**: Uses `Zod` to validate the `manifest.yaml` structure at the start of the process.
