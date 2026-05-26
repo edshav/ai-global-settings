@@ -22,3 +22,7 @@ skills:
   - name: mutation-analyzer
     source: sources/edshav-skills/mutation-analyzer
     enabled: false
+
+  - name: github-cli
+    source: sources/edshav-skills/github-cli
+    enabled: true
