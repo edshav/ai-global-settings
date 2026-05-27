@@ -25,4 +25,4 @@ skills:
 
   - name: github-cli
     source: sources/edshav-skills/github-cli
-    enabled: true
+    enabled: false
