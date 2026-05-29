@@ -3,8 +3,8 @@ skills:
     source: sources/anthropic-skills/skills/skill-creator
     enabled: true
 
-  - name: context7-cli
-    source: sources/context7/skills/context7-cli
+  - name: find-docs
+    source: sources/context7/skills/find-docs
     enabled: true
 
   - name: discovery-interview
